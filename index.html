@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ryan Matthew Silveira — Senior Technology Leader</title>
+<meta name="description" content="Ryan Matthew Silveira — Senior Technology Leader specializing in AI Strategy, Cloud Architecture and Software Engineering Leadership.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">RMS<span class="dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#summary" data-nav>Summary</a>
+      <a href="#graph" data-nav>Path</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#contact" data-nav class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="eyebrow">// senior technology leader</p>
+      <h1 class="hero-name">Ryan Matthew<br>Silveira</h1>
+      <p class="hero-role">AI Strategy &nbsp;·&nbsp; Cloud Architecture &nbsp;·&nbsp; Engineering Leadership</p>
+      <p class="hero-sub">12+ years turning distributed systems and machine learning into decisions executives can act on. Currently directing enterprise AI strategy at Databricks. Built on engineering leadership at Microsoft and applied systems work at NVIDIA.</p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View experience</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <span>St. Petersburg, FL</span>
+        <span class="sep">/</span>
+        <span>PhD, Computer Science</span>
+        <span class="sep">/</span>
+        <span>5 cloud &amp; ML certifications</span>
+      </div>
+    </div>
+    <button class="scroll-cue" id="scrollCue" aria-label="Scroll to career path">
+      <span>scroll</span>
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><path d="M8 1V23M8 23L1 16M8 23L15 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </section>
+
+  <!-- CAREER GRAPH -->
+  <section class="graph-section" id="graph">
+    <div class="section-head">
+      <p class="eyebrow">// career graph</p>
+      <h2>Twelve years, charted as a system</h2>
+      <p class="section-sub">Each role compiled into the next. Click a node to jump straight to it.</p>
+    </div>
+    <div class="graph-wrap">
+      <svg id="careerGraph" viewBox="0 0 1000 280" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Career path diagram from 2013 to present">
+        <path id="graphPath" class="graph-edge" d="M 70 200 C 180 200, 180 90, 290 90 C 380 90, 380 200, 470 200 C 560 200, 560 90, 650 90 C 740 90, 740 200, 830 200 C 880 200, 900 150, 930 140" fill="none"/>
+
+        <g class="graph-node" data-target="exp-nvidia" tabindex="0" role="link" aria-label="NVIDIA, Software Engineer, 2013 to 2015">
+          <circle cx="70" cy="200" r="9" class="node-dot"/>
+          <text x="70" y="232" class="node-label" text-anchor="middle">NVIDIA</text>
+          <text x="70" y="250" class="node-date" text-anchor="middle">2013–15</text>
+        </g>
+
+        <g class="graph-node" data-target="edu-usf" tabindex="0" role="link" aria-label="University of South Florida, PhD Computer Science, 2014 to 2017">
+          <circle cx="290" cy="90" r="9" class="node-dot"/>
+          <text x="290" y="68" class="node-label" text-anchor="middle">USF · PhD</text>
+          <text x="290" y="50" class="node-date" text-anchor="middle">2014–17</text>
+        </g>
+
+        <g class="graph-node" data-target="exp-stpete" tabindex="0" role="link" aria-label="St. Petersburg College, Lecturer, 2015 to 2018">
+          <circle cx="470" cy="200" r="9" class="node-dot"/>
+          <text x="470" y="232" class="node-label" text-anchor="middle">St. Pete College</text>
+          <text x="470" y="250" class="node-date" text-anchor="middle">2015–18</text>
+        </g>
+
+        <g class="graph-node" data-target="exp-microsoft" tabindex="0" role="link" aria-label="Microsoft, Senior Software Engineering Manager, 2018 to 2022">
+          <circle cx="650" cy="90" r="9" class="node-dot"/>
+          <text x="650" y="68" class="node-label" text-anchor="middle">Microsoft</text>
+          <text x="650" y="50" class="node-date" text-anchor="middle">2018–22</text>
+        </g>
+
+        <g class="graph-node node-current" data-target="exp-databricks" tabindex="0" role="link" aria-label="Databricks, Director of AI Strategy and Innovation, 2022 to present">
+          <circle cx="930" cy="140" r="11" class="node-dot"/>
+          <text x="930" y="170" class="node-label" text-anchor="middle">Databricks</text>
+          <text x="930" y="188" class="node-date" text-anchor="middle">2022–now</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="summary" id="summary">
+    <div class="summary-card">
+      <p class="eyebrow">// summary</p>
+      <p class="summary-text">Senior technology leader with 12+ years of progressive experience spanning software engineering, cloud architecture, enterprise systems, and AI-driven digital transformation. Currently drives enterprise AI strategy and adoption at Databricks, partnering with executive stakeholders to translate machine learning capability into measurable business value. Built on a foundation of large-scale engineering leadership at Microsoft and applied systems experience at NVIDIA, complemented by academic teaching and research mentoring in computer science. Known for bridging deep technical expertise with executive-level communication, team leadership, and cross-functional delivery.</p>
+      <div class="competency-chips">
+        <span>AI Strategy &amp; Enterprise Adoption</span>
+        <span>Cloud Architecture</span>
+        <span>System Design</span>
+        <span>Enterprise Architecture</span>
+        <span>MLOps &amp; Data Engineering</span>
+        <span>Engineering Team Leadership</span>
+        <span>DevOps &amp; CI/CD</span>
+        <span>Digital Transformation</span>
+        <span>Executive Consulting</span>
+        <span>Academic Research Mentoring</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-head">
+      <p class="eyebrow">// experience</p>
+      <h2>Where the work happened</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="role" id="exp-databricks">
+        <div class="role-when">
+          <span class="role-dates">JUN 2022 — PRESENT</span>
+        </div>
+        <div class="role-body">
+          <h3>Director, AI Strategy &amp; Innovation</h3>
+          <p class="role-org">Databricks · Remote / San Francisco Bay Area, CA</p>
+          <ul>
+            <li>Leads enterprise AI strategy engagements for Fortune 500 clients, advising executive leadership on ML adoption roadmaps, AI governance, and organizational readiness.</li>
+            <li>Directs cross-functional teams designing and deploying cloud-based AI and ML solutions, overseeing the move from pilot programs to production-scale deployment across industry verticals.</li>
+            <li>Partners with C-suite stakeholders to define AI investment priorities, driving measurable gains in operational efficiency and data-driven decision-making.</li>
+            <li>Built internal frameworks for evaluating AI/ML use cases against business impact, technical feasibility, and responsible AI principles.</li>
+            <li>Serves as senior technical advisor on MLOps, model governance, and scalable data architecture, mentoring engineering and data science teams.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role" id="exp-microsoft">
+        <div class="role-when">
+          <span class="role-dates">AUG 2018 — MAY 2022</span>
+        </div>
+        <div class="role-body">
+          <h3>Senior Software Engineering Manager</h3>
+          <p class="role-org">Microsoft · Redmond, WA</p>
+          <ul>
+            <li>Led multiple engineering teams designing, building, and scaling cloud-based enterprise systems for large commercial and enterprise customers.</li>
+            <li>Directed architecture decisions for distributed, cloud-native applications, improving reliability, scalability, and maintainability across core product lines.</li>
+            <li>Managed engineering staff through hiring, performance development, and technical mentorship, growing team capability while holding a high delivery bar.</li>
+            <li>Drove DevOps adoption — CI/CD pipelines, containerization, infrastructure automation — cutting release cycle times and improving deployment reliability.</li>
+            <li>Aligned technical roadmaps with business priorities alongside product management and senior engineering leadership for multi-quarter platform planning.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role" id="exp-stpete">
+        <div class="role-when">
+          <span class="role-dates">AUG 2015 — JUL 2018</span>
+        </div>
+        <div class="role-body">
+          <h3>Lecturer, Computer Science</h3>
+          <p class="role-org">St. Petersburg College · St. Petersburg, FL</p>
+          <ul>
+            <li>Taught undergraduate and graduate courses spanning AI fundamentals, software engineering, data structures and algorithms, and cloud computing.</li>
+            <li>Designed curricula and assessments aligned with current industry practice and emerging machine learning techniques.</li>
+            <li>Supervised student research projects and provided academic mentoring in AI and distributed systems.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role" id="exp-nvidia">
+        <div class="role-when">
+          <span class="role-dates">JUL 2013 — JUL 2015</span>
+        </div>
+        <div class="role-body">
+          <h3>Software Engineer</h3>
+          <p class="role-org">NVIDIA · Santa Clara, CA</p>
+          <ul>
+            <li>Developed and optimized software components for high-performance computing applications, improving system-level performance on compute-intensive workloads.</li>
+            <li>Supported early-stage data processing and ML system development, gaining hands-on exposure to GPU-accelerated computing and large-scale data pipelines.</li>
+            <li>Collaborated with senior engineers on system optimization, applying strong fundamentals in algorithms, data structures, and systems programming.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <p class="eyebrow">// technical skills</p>
+      <h2>The stack underneath the strategy</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>AI &amp; Machine Learning</h4>
+        <p>Model deployment, MLOps, applied ML strategy, AI governance</p>
+      </div>
+      <div class="skill-card">
+        <h4>Cloud Platforms</h4>
+        <p>Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)</p>
+      </div>
+      <div class="skill-card">
+        <h4>Software Engineering</h4>
+        <p>System design, distributed systems, enterprise architecture, scalable application development</p>
+      </div>
+      <div class="skill-card">
+        <h4>Languages</h4>
+        <p>Python, Java, C++</p>
+      </div>
+      <div class="skill-card">
+        <h4>DevOps &amp; Infrastructure</h4>
+        <p>Docker, Kubernetes, Terraform, CI/CD pipelines, infrastructure automation</p>
+      </div>
+      <div class="skill-card">
+        <h4>Leadership &amp; Strategy</h4>
+        <p>Engineering team management, digital transformation strategy, executive stakeholder consulting</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION + CERTS -->
+  <section class="education" id="education">
+    <div class="edu-col">
+      <div class="section-head left">
+        <p class="eyebrow">// education</p>
+        <h2>Academic foundation</h2>
+      </div>
+      <div class="edu-list">
+        <div class="edu-item" id="edu-usf">
+          <span class="edu-dates">2014–2017</span>
+          <h4>PhD, Computer Science</h4>
+          <p class="edu-org">University of South Florida, Tampa, FL</p>
+          <p class="edu-detail">Dissertation: Machine Learning Approaches in Distributed Systems</p>
+        </div>
+        <div class="edu-item">
+          <span class="edu-dates">2013–2015</span>
+          <h4>MS, Computer Science</h4>
+          <p class="edu-org">University of South Florida, Tampa, FL</p>
+        </div>
+        <div class="edu-item">
+          <span class="edu-dates">2009–2013</span>
+          <h4>BS, Computer Science</h4>
+          <p class="edu-org">University of South Florida, Tampa, FL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-col">
+      <div class="section-head left">
+        <p class="eyebrow">// certifications</p>
+        <h2>Credentials</h2>
+      </div>
+      <ul class="cert-list">
+        <li>Microsoft Certified: Azure AI Engineer Associate</li>
+        <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+        <li>AWS Certified Solutions Architect — Professional</li>
+        <li>Google Cloud Professional Machine Learning Engineer</li>
+        <li>Project Management Professional (PMP)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="eyebrow">// contact</p>
+      <h2>Let's talk strategy.</h2>
+      <p class="contact-sub">Open to conversations on AI strategy, cloud architecture, and engineering leadership.</p>
+      <div class="contact-links">
+        <a href="mailto:ryanmatthew57383@gmail.com">ryanmatthew57383@gmail.com</a>
+        <a href="https://www.linkedin.com/in/ryanmatthewphd" target="_blank" rel="noopener">linkedin.com/in/ryanmatthewphd</a>
+        <span class="contact-location">St. Petersburg, FL</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Ryan Matthew Silveira</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
